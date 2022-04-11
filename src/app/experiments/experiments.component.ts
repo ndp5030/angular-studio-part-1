@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experiments.component.css']
 })
 export class ExperimentsComponent implements OnInit {
-
+   experiments: string[] = ['Mars soil sample', "Plant growth in habitat", 'Human bone density']
+   
   constructor() { }
 
   ngOnInit(): void {
